@@ -14,7 +14,7 @@ var latlon=position.coords.latitude +"," +position.coords.longitude;
 var img_url=
 "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+
 
-"&zoom=14&size=400x300&key=YOUR_ KEY";
+"&zoom=14&size=400x300&key=AIzaSyBZGvjtL3W4rA8cWoCluwG1hb-TjeSHsog";
 
 document.getElementById("map").innerHTML="<img src='"+img_url+"'>";
 }
